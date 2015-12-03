@@ -13,7 +13,7 @@ using SmartStore.Core.Domain.Common;
 namespace SmartStore.Services.Tests.Customers
 {
     [TestFixture]
-    class CustomerServiceTest : ServiceTest
+    public class CustomerServiceTest : ServiceTest
     {
         private IEncryptionService _encryptionService;
         private SecuritySettings _securitySettings;
